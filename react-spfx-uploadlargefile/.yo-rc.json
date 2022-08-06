@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "react-spfx-uploadlargefile",
+    "libraryId": "63a7ccae-70f2-4897-9133-92bb2d6003ab",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "react-spfx-uploadlargefile",
+    "solutionShortDescription": "react-spfx-uploadlargefile description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

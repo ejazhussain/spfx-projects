@@ -1,0 +1,58 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "OC - Graph Upload Files",
+    "id": "63a7ccae-70f2-4897-9133-92bb2d6003ab",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Files.ReadWrite"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Files.ReadWrite.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Sites.ReadWrite.All"
+      }
+    ],
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "react-spfx-uploadlargefile description"
+      },
+      "longDescription": {
+        "default": "react-spfx-uploadlargefile description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "OC - Graph Upload Files Feature",
+        "description": "The feature that activates elements of the Graph Upload Files solution.",
+        "id": "bfb47492-f176-43b7-b680-7cc68f31b4bb",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/oc-graph-uploadfile.sppkg"
+  }
+}

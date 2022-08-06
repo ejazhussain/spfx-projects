@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "upload-large-file-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/uploadLargeFile/UploadLargeFileWebPart.js",
+          "manifest": "./src/webparts/uploadLargeFile/UploadLargeFileWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "UploadLargeFileWebPartStrings": "lib/webparts/uploadLargeFile/loc/{locale}.js"
+  }
+}

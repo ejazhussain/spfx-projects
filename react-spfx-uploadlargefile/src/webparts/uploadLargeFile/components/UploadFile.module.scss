@@ -1,0 +1,28 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.uploadLargeFile {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+
+  .button {
+    height: 40px;
+    font-size: 16px;
+  }
+  .hidden {
+    visibility: hidden;
+  }
+
+  :global {
+    .ant-card-type-inner .ant-card-head-title {
+      font-size: 18px;
+    }
+    .ant-card-type-inner .ant-card-extra {
+      padding: 0;
+    }
+  }
+}
