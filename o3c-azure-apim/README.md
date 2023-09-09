@@ -1,4 +1,4 @@
-# o-3-c-azure-apim
+# [O3C] Azure API Management Integration
 
 ## Summary
 
