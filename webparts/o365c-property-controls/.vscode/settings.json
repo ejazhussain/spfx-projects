@@ -1,0 +1,18 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/bower_components": true,
+    "**/coverage": true,
+    "**/lib-amd": true,
+    "src/**/*.scss.ts": true
+  },
+  "search.exclude": { "**/lib": true },
+  "[scss]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "custom-property-controls-client-side-solution",
+    "id": "33038462-e06e-4159-b428-55fe1474c5f7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "CustomPropertyControls description"
+      },
+      "longDescription": {
+        "default": "CustomPropertyControls description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "custom-property-controls Feature",
+        "description": "The feature that activates elements of the custom-property-controls solution.",
+        "id": "028de0eb-33f9-4315-9313-8aeab5038fce",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/custom-property-controls.sppkg"
+  }
+}
